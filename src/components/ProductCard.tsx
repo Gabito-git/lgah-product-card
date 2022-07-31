@@ -34,14 +34,6 @@ import { ProductContextInterface, Product, OnChangeArgs, InitialValues, ProductC
 
 import styles from '../styles/styles.module.css';
 
-// Ejemplo de sub componente
-
-// export const ProductImage = ({ img = '' }) => {
-//   return (
-//     <img className={ styles.productImg } src={ img ? img: noImage } alt='Product'/>
-//   )
-// }
-
 
 export const ProductContext = createContext({} as ProductContextInterface);
 
